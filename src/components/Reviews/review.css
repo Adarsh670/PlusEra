@@ -1,0 +1,66 @@
+.reviewCard {
+  width: 24rem;
+  min-height: 600px !important;
+  display: flex !important;
+  text-align: center;
+  align-items: center;
+  padding: 40px 0px;
+  background-color: #ecf7f9;
+  border: none;
+  margin-top: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.reviewCard img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+.reviewCard p {
+  padding: 0px 20px !important;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1399px) {
+  .reviewCard {
+    width: 20rem !important;
+    margin: 0 10px !important;
+    min-height: 650px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .reviewCard {
+    width: 18rem !important;
+    margin: 0 10px !important;
+    min-height: 700px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .reviewCard {
+    width: 20rem !important;
+    margin: 0 10px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reviewCard {
+    width: 100% !important;
+    margin: 20px 0px !important;
+    padding: 20px 20px;
+     min-height: 500px !important;
+  }
+  .reviewCard p {
+    padding: 0px 10px !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .reviewCard {
+    width: 100% !important;
+    padding: 40px 0px;
+  }
+  .reviewCard p {
+    padding: 0px 10px !important;
+  }
+}

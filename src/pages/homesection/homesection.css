@@ -1,0 +1,59 @@
+.top {
+  min-height: 90px;
+}
+.homesectionContainer {
+  padding: 0px 50px;
+}
+.left {
+  padding: 200px 0 200px 50px;
+}
+.left p{
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+}
+.left h2{
+    font-weight: 700;
+}
+.left button{
+    margin-top: 20px;
+}
+
+.right {
+  position: relative;
+}
+.right .right_left {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.right .right_right {
+  margin-left: 170px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(20, 35, 20);
+  padding: 200px 50px 250px 250px;
+  color: #fff;
+}
+.right .right_right .buttons {
+    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.right .right_right .buttons p {
+  font-size: 25px;
+  padding: 0 2px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.product-desc h1 {
+  font-weight: 700;
+}
+.product-desc p{
+    font-size: 20px;
+    padding-left: 5px;
+    margin-top: 4px;
+}

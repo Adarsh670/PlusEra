@@ -1,0 +1,124 @@
+.footer{
+    margin: 40px 0;
+    background-image: url("https://res.cloudinary.com/dqlx1vyne/image/upload/v1675334136/PlusEra/02_m1cfvc.jpg");
+    /* background-position: center bottom; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 20vh; */
+    /* filter: sepia(70%) hue-rotate(180deg) saturate(500%); */
+    opacity: 0.9;
+    position: relative;
+    padding-bottom: 20px;
+}
+.footer_content{
+    padding-top: 100px;
+}
+.footer_content ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer_titles h4{
+    color: #4d6cb1;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+}
+.footer_titles h4:after{
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: #4d6cb1;
+}
+.footer_titles h5{
+    color: #4d6cb1;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer_desc{
+    font-size: 18px;
+}
+.footer_subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_subscribe input{
+    padding: 10px 10px;
+    border: 1px solid #4d6cb1;
+    border-radius: 2px;
+    width: 300px;
+    color: #4d6cb1;
+}
+.footer_subscribe input:focus{
+    outline: none;
+}
+.footer_subscribe button{
+    width: 150px;
+    padding: 8px 10px;
+    background-color: #4d6cb1;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+}
+.social-icons{
+    display: flex;
+    gap: 10px;
+}
+.social-icons li svg{
+ font-size: 23px !important;
+}
+.topbtn{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background-color: #478549;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.topbtn svg{
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+.topbtn svg:hover{
+    transform: translateY(-5px);
+}
+@media screen and (max-width:992px) {
+    .footerImg{
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width:768px) {
+    .footerImg{
+        margin-top: 0px;
+        height: 10vh;
+    }
+    .footer{
+        margin-top: 0;
+    }
+    .footer_content{
+        padding-top: 50px;
+    }
+   
+}
+@media screen and (max-width:568px) {
+    .footerImg{
+        margin-top: 0px;
+        height: 10vh;
+    }
+}
+@media screen and (max-width:468px) {
+    .topbtn{
+       
+        right: 20px;
+        bottom: 20px;
+      
+    }
+}

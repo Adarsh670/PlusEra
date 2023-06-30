@@ -1,0 +1,409 @@
+.home-section {
+  overflow-x: hidden;
+}
+.homebanner {
+  margin:90px 0 50px 0;
+}
+.carosuleCaption{
+  position: absolute;
+  top: 30%;
+  left:5%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.carosuleCaption h1{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+}
+.homebanner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.homebanner-left {
+  font-size: 25px;
+  color: #4d6cb1;
+}
+.homebanner-left p {
+  font-size: 20px;
+  font-style: italic;
+}
+.homebanner-left h1 {
+  font-size: 38px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* .hero_banner_text h1 {
+  font-size: 07px;
+} */
+.homebanner-left a {
+  padding: 10px 30px;
+  margin-top: 30px;
+  background-color: #4d6cb1;
+  border: none;
+  border-radius: 50px;
+  width: 150px;
+  font-size: 16px;
+  color: #fff !important;
+}
+
+/* Product Part */
+.home_product_part {
+  margin-top: 100px;
+  overflow-x: hidden;
+}
+
+.home_product_part_left {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://res.cloudinary.com/dqlx1vyne/image/upload/v1677231889/PlusEra/Collage-01_hhb9qv.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* height: 100%; */
+}
+
+/* .home_product_part_right {
+  padding: 30px 50px 0px 0px;
+} */
+.home_product_part_right p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.home_product_part_right h2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #478549;
+  position: relative;
+}
+
+.home_product_part_right button {
+  border: none;
+  padding: 12px 30px;
+  background-color: #478549;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 10px;
+}
+.home_product_part_right_web {
+  display: block;
+}
+.about-btn{
+  background-color: #478549;
+  color: #fff !important;
+  padding: 10px 20px;
+}
+
+/* Cards */
+.home_cards {
+  margin-top: 100px;
+}
+.home_card_img {
+  width: 180px;
+  border: 5px solid #478549;
+  padding: 0px;
+  border-radius: 50%;
+}
+.home_cards .card {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  gap: 15px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: #ecf7f9;
+  min-height: 400px;
+}
+.home_cards .fade-right{
+  padding: 25px;
+}
+.fade-left{
+  padding: 10px;
+}
+.home_cards .card-title {
+  color: #478549;
+  font-size: 22px;
+}
+
+/* Choose */
+.choose {
+  background-color: #ecf7f9;
+  margin-top: 50px;
+  padding: 80px 0;
+}
+
+.title h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 40px;
+  color: #478549;
+  position: relative;
+}
+
+.choose p,
+.services p,
+.review p {
+  margin-top: 35px;
+  padding: 0px 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 17px;
+}
+.choose h2 {
+  color: #4d6cb1;
+}
+.choose_icons {
+  margin-top: 80px;
+}
+.choose_icons img {
+  position: relative;
+  z-index: 2;
+}
+.icon-s {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-bottom: 30px;
+  line-height: 100px;
+  border-radius: 50px;
+  position: relative;
+}
+.icon-s:before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  display: inline-block;
+  margin-bottom: 30px;
+  line-height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 22%);
+}
+.icon-s:after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  /* background: #ffc53c; */
+  background: #4d6cb1;
+  left: -10px;
+  bottom: -10px;
+  border-radius: 0 0 100px 100px;
+}
+.choose_icons p {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  color: #4d6cb1;
+}
+
+/* Slider */
+.custom_slider_btn {
+  display: flex;
+  float: right;
+  padding: 0 50px;
+  cursor: pointer;
+}
+.custom_slider_btn button {
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 2px solid #478549;
+}
+.custom_slider_btn button svg {
+  color: #478549;
+}
+
+/* Our Product */
+.ourProduct {
+  margin-top: 150px;
+}
+.ourproductrightImg {
+  background-image: url("https://res.cloudinary.com/dqlx1vyne/image/upload/v1677310601/PlusEra/Plusera_Bottles_All_1_t359h4.png");
+  background-position: center ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #d2cec7;
+  min-height: 400px;
+}
+.ourproductLeft {
+  padding: 50px 50px 80px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  background-color: #478549;
+}
+.ourproductLeft p span {
+text-transform: uppercase;
+font-weight: 500;
+}
+.ourproductLeft button {
+  width: 140px;
+  padding: 10px 10px;
+  border: none;
+  background-color: #ffc53c;
+  color: #000;
+  border-radius: 5px;
+}
+
+/* Review */
+.review {
+  margin-top: 100px;
+}
+.review h2 {
+  color: #4d6cb1;
+}
+.home_product_part_right_mob {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-text {
+    padding: 20rem 6rem;
+  }
+  .homebanner-left h1 {
+    font-size: 26px;
+    color: #000;
+  }
+  .choose p,
+  .services p,
+  .review p {
+    padding: 0px 0px;
+  }
+
+  .carosuleCaption h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero-text {
+    padding: 20rem 2rem;
+  }
+  .home_product_part_right_web {
+    display: none;
+  }
+  .home_product_part_right_mob {
+    display: block;
+  }
+  .home_product_part_right {
+    padding: 10px 0px 0px 20px;
+  }
+  .home_product_part_right h2 {
+    font-size: 30px;
+  }
+.ourProduct{
+  display: block;
+}
+  .service_slider_left:before {
+    bottom: 10%;
+    left: 13.1%;
+  }
+  .service_slider_right {
+    margin-top: 0px;
+    padding: 10px 10px !important;
+    background-color: #f8f8f8;
+  }
+
+  .ourproductLeft {
+    padding: 50px 10px 50px 30px;
+  }
+  .homebanner-mini .row {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .caro-img {
+    height: 300px;
+  }
+  .carosuleCaption h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 33px;
+    color: #fff;
+  }
+  .home_product_part_left {
+   min-height: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* .home_product_part .row {
+    flex-direction: column-reverse;
+  } */
+  .homebanner-left h1 {
+    font-size: 32px;
+  }
+  .hero-text {
+    padding: 20rem 2rem;
+  }
+  .home-section .hero-text .container {
+    margin: 0;
+  }
+  
+  .caro-img {
+    height: 300px;
+  }
+  .home_product_part {
+    margin-top: 50px;
+  }
+  .carosuleCaption h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 23px;
+    color: #fff;
+  }
+  .ourProduct{
+    display: block !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero-text {
+    padding: 15rem 2rem;
+  }
+  .homebanner-left h1 {
+    font-size: 27px;
+  }
+  .caro-img {
+    height: 200px;
+  }
+
+  .carosuleCaption h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+  }
+}
+@media screen and (max-width: 420px) {
+  .carosuleCaption h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+  }
+  .hero-text {
+    padding: 12rem 2rem;
+  }
+  .homebanner-left h1 {
+    font-size: 20px;
+  }
+}

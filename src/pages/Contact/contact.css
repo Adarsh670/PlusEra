@@ -1,0 +1,97 @@
+.contact{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.contact_banner {
+    display: block;
+    width: 100%;
+    min-height: 35vh;
+    background-color: #8cadf4;
+    /* background-image: url("https://res.cloudinary.com/dqlx1vyne/image/upload/v1675316786/PlusEra/aboutbanner_bb5v1t.png"); */
+    background-position: center bottom;
+    background-size: cover;
+    font-family: "Jost", sans-serif;
+    background-attachment: fixed;
+    filter: brightness(80%);
+    position: relative;
+  }
+  .contact_banner_text {
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+ .contact-section{
+  margin-top: 100px;
+  padding-bottom:50px ;
+ }
+ .contact-form-div{
+  padding: 50px 0;
+ }
+  
+  .contact-form-div form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact-form-div input,
+  .contact-form-div textarea{
+    width: 100% !important;
+    padding: 15px;
+    border: 1px solid lightgray;
+  }
+  .contact-form-div button{
+    padding: 10px;
+    /* width: 150px; */
+    border: none;
+    background-color: #4d6cb1;
+    color: #fff;
+  }
+  
+
+.contact-right{
+  background-image: url("https://res.cloudinary.com/dqlx1vyne/image/upload/v1676976354/PlusEra/contactimg1_jobgjt.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-card{
+  margin-top: 100px;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #4d6cb1;
+  background-color: #4d6cb1;
+  color: #fff;
+}
+.contact-card svg{
+  font-size: 30px;
+  color: #fff;
+}
+ 
+
+  @media screen and (max-width:992px) {
+    .contact-card{
+      margin-top: 0;
+    }
+    .contact_banner {
+        min-height: 30vh;
+      }
+ 
+    .contact_banner_text {
+        top: 20%;
+      }
+  }
+  @media screen and (max-width:768px) {
+   
+    .contact-lady{
+        display: none;
+    }
+    
+  }
+
+  
+  
